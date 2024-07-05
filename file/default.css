@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: white;
+  overflow: auto;
+  
+}
+a {
+  color: white;
+  font-size: 14px;
+}
+#main {
+  width: 100%;
+}
+#wrap {
+  position: static;
+  
+  width: 1100px;
+  height: 680px;
+  margin-top: 700px;
+}
+#text {
+  width: 272px;
+  height: 560px;
+  left: 188px;
+  top: 80px;
+  position: absolute;
+}
+#code {
+  display: none;
+  color: rgb(196, 255, 255);
+  font-size: 30px;
+  margin-top: 50px;
+  line-height: 40px;
+  position: relative;
+  top: 5px;
+  right: 150px;
+
+  font-weight: bolder;
+}
+#clock-box {
+  position: absolute;
+  left: 50px;
+  top: 1400px;
+  
+  font-size: 20px;
+  display: none;
+}
+#clock-box a {
+  font-size: 28px;
+  text-decoration: none;
+}
+#clock {
+  margin-left: 48px;
+}
+#clock .digit {
+  font-size: 64px;
+}
+#canvas {
+  margin: 0 auto;
+  width: 1100px;
+  height: 680px;
+  transition: ;
+}
+#error {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+  display: none;
+}
+.hand {
+  cursor: pointer;
+}
+.say {
+  margin-left: 5px;
+}
+.space {
+  margin-right: 150px;
+}
+
+#message-box{
+  position: absolute;
+  margin-top:850px;
+  font-size: 35px;
+  font-family: monospace;
+  margin-left: 60px;
+
+}
